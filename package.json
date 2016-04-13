@@ -4,7 +4,8 @@
   "description": "Promise-based functional command pattern(ish) implementation.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint src test",
+    "test": "npm run lint && mocha"
   },
   "author": "Matt Hinz <matthinz@gmail.com>",
   "license": "ISC",
