@@ -129,6 +129,7 @@ You can now pass an action into `myActionFunctionWithMiddleware()` and it will b
 ### Middleware to Write
 
 - `parallelizingMiddlware` - Middleware that executes other middleware in parallel and merges the resulting actions together for forwarding.
+- `retryingMiddleware` - Middleware that retries on error with exponential backoff.
 
 ## Examples
 
