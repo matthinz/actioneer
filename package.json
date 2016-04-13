@@ -1,0 +1,17 @@
+{
+  "name": "actioneer",
+  "version": "0.0.1",
+  "description": "Promise-based functional command pattern(ish) implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Matt Hinz <matthinz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "eslint": "^2.5.3",
+    "eslint-config-airbnb": "^6.2.0"
+  }
+}
